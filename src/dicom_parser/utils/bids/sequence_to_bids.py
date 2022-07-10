@@ -34,7 +34,6 @@ DWI_FIELDMAP = {
 FLAIR = {"data_type": "anat", "suffix": "FLAIR"}
 FUNCTIONAL_FIELDMAP = {
     "data_type": "fmap",
-    "acq": "func",
     "dir": find_phase_encoding,
     "suffix": "epi",
 }
